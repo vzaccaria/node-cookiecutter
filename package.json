@@ -1,0 +1,20 @@
+{
+  "name": "node-cookiecutter",
+  "version": "0.0.1",
+  "description": "comfortabe wrapper around cookiecutter",
+  "bin": {
+    "node-cookiecutter": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vittorio Zaccaria",
+  "license": "BSD",
+  "dependencies": {
+    "bluebird": "^2.7.1",
+    "docopt": "~0.4.1",
+    "shelljs": "^0.3.0",
+    "uid": "0.0.2"
+  }
+}

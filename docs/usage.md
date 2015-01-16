@@ -4,3 +4,4 @@ Usage:
 
 Options:
     -t, --template TEMPLATE     Specify template directory
+    -h, --help

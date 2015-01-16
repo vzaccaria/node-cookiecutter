@@ -23,7 +23,8 @@ process.stdin.on 'readable', ->
 
 process.stdin.on 'end', ->
     temp-dir = "#cwd/tmp-#{uid(8)}"
-    _.cp('-R', "#{opts['TEMPLATE']}/*", temp-dir);
+    console.log opts
+    _.cp('-R', "#{opts['--template']}/*", temp-dir);
     console.log chunks
     chunks.to("#temp-dir/cookiecutter.json")
 
